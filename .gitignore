@@ -1,0 +1,4 @@
+/venv/
+/characterai_web/__pycache__/
+/messenger_web/__pycache__/
+my_env
