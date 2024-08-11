@@ -39,7 +39,7 @@ def main(users_queue: multiprocessing.Queue, bot_queue: multiprocessing.Queue):
     options = Options()
     options.add_experimental_option("detach", True)
     cService = webdriver.ChromeService(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=cService, options=options)
+    driver = webdriver.Chrome(options=options)
 
     driver.get(MESS_URL)
 
